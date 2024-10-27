@@ -106,6 +106,7 @@ h2 {
     width: 95%;
     height: 100%;
     object-fit: cover;
+    border-radius: 0; 
 }
 
 .container-fluid {
@@ -122,7 +123,7 @@ h2 {
 }
 
 .card .btn {
-    border-radius: 25px; 
+    border-radius: 0; 
     font-size: 1.1rem;  
     padding-top: 10px;  
     padding-bottom: 10px; 
@@ -152,4 +153,61 @@ h2 {
 .btn-light:hover {
     background-color: #e2e2e2; 
     color: #000;               
+}
+
+.card-body {
+    text-align: left; 
+}
+
+.card-title {
+    margin-bottom: 0; 
+    font-size: 0.875rem;
+}
+
+.card-title .first-line {
+    font-weight: 900; 
+}
+
+.card-text {
+    margin-top: 5px; 
+}
+
+.hacks-item {
+    flex: 0 0 20%; 
+    max-width: 20%;
+}
+
+.card-body-custom {
+    margin-left: -30px; 
+}
+
+.card-body-custom-2 {
+    margin-left: -25px; 
+}
+
+.card-body-custom-3 {
+    margin-left: -60px; 
+}
+
+.card-body-custom-4 {
+    margin-left: -65px; 
+}
+
+.card-body-custom-5 {
+    margin-left: -55px; 
+}
+
+.btn-light.rounded {
+    border-radius: 50px; 
+    padding: 10px 20px;
+}
+
+.card .btn {
+    border-radius: 25px;
+    font-size: 1.1rem;  
+    padding-top: 10px;  
+    padding-bottom: 10px; 
+    margin-top: -100px;    
+    margin-bottom: 20px;
+    margin-right: 20px;
 }
